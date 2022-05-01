@@ -32,18 +32,23 @@
 
 .contenedor-imagenes{
     display:flex;
+    flex-wrap: wrap;
     width: 95%;
+    /*height: 100px;*/
+    
     margin: auto;
     justify-content: space-around;
-    flex-wrap: wrap;
     border-radius: 3px;
+    /*gap: 1px;*/
 
 }
 
 .contenedor-imagenes .imagen{
     width: 33%;
     position: relative;
-    height:250px;
+    /*height:250px;*/
+    height:auto;
+
     margin-bottom:5px;
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75)
 }
